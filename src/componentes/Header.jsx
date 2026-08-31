@@ -34,6 +34,7 @@ function Header() {
           <a href="#sobre" onClick={fecharMenu}>Sobre</a>
           <a href="#servicos" onClick={fecharMenu}>Serviços</a>
           <a href="#contato" onClick={fecharMenu}>Contato</a>
+          <a href="#botao" onClick={fecharMenu}>BotaoAgendamento</a>
           <a className="botao botao-pequeno" href="#contato" onClick={fecharMenu}>
             Agendar conversa
           </a>

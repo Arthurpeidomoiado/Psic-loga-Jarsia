@@ -9,6 +9,7 @@ function Hero() {
           <div className="grupo-botoes">
             <a className="botao" href="#contato">Solicitar atendimento</a>
             <a className="botao botao-secundario" href="#sobre">Conhecer a profissional</a>
+            <a  href="#botao"> Renanplay</a>
           </div>
           <small>Atendimento sujeito à disponibilidade.</small>
         </div>

@@ -8,7 +8,12 @@ function Contato() {
     setMensagemEnviada(true);
     evento.target.reset();
   }
-
+  function desenviarFormulario(evento) {
+    evento.preventDefault();
+    setMensagemEnviada(false);
+    evento.target.reset();
+  }
+  
   return (
     <section className="secao" id="contato">
       <div className="container contato-grid">
@@ -30,6 +35,7 @@ function Contato() {
           <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
           <button className="botao" type="submit">Enviar solicitação</button>
+          <button className="botao" type="reset" onClick={desenviarFormulario}>Limpar</button>
           {mensagemEnviada && (
             <p className="mensagem-sucesso">
               Solicitação demonstrativa registrada na interface.

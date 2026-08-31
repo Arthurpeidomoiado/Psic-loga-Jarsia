@@ -7,7 +7,7 @@ import Beneficios from "./componentes/Beneficios.jsx";
 import Depoimentos from "./componentes/Depoimentos.jsx";
 import Contato from "./componentes/Contato.jsx";
 import Footer from "./componentes/Footer.jsx";
-
+import Perguntas from "./componentes/Perguntas.jsx";
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
         <Beneficios />
         <Depoimentos />
         <Contato />
+        <Perguntas />
       </main>
       <Footer />
     </>
