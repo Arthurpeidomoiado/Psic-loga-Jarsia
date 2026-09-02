@@ -4,14 +4,16 @@ export const servicos = [
     icone: "◌",
     titulo: "Psicoterapia individual",
     descricao: "Espaço individual para escuta e reflexão.",
-    modalidade: "Modalidade a confirmar"
+    modalidade: "Modalidade a confirmar" ,
+    diponibilidade: true
   },
   {
     id: 2,
     icone: "⌁",
     titulo: "Atendimento on-line",
     descricao: "Possibilidade de atendimento por videochamada.",
-    modalidade: "Modalidade a confirmar"
+    modalidade: "Modalidade a confirmar" ,
+    diponibilidade: true
   },
   {
     id: 3,

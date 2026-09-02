@@ -15,6 +15,7 @@ function Servicos() {
               titulo={servico.titulo}
               descricao={servico.descricao}
               modalidade={servico.modalidade}
+              disponibilidade={servico.diponibilidade}
             />
           ))}
         </div>
